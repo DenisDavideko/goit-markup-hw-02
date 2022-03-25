@@ -92,6 +92,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  cursor: pointer;
 }
 
 /*list - убирает точки перед селектарами  */
@@ -183,4 +184,41 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
+}
+
+.technoquack,
+.new-orlean-vs-gs,
+.seafood,
+.prime,
+.boxes,
+.inspiration,
+.limited-edition,
+.project-lab,
+.growing-business {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.technoquack-website,
+.new-orlean-vs-gs-design,
+.seafood-app,
+.prime-marketing,
+.boxes-app,
+.inspiration-website,
+.limited-edition-design,
+.project-lab-marketing,
+.growing-business-app {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
