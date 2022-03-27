@@ -1,6 +1,8 @@
 body {
   font-family: Roboto, sans-serif;
-  color: #757575;
+  color: #757575, #212121, #2196f3, #ffffff, #2f303a;
+  background-color: #e5e5e5;
+  font-size: 14px;
 }
 .logo {
   font-family: "Raleway";
@@ -11,6 +13,7 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
+  word-spacing: -7px;
 }
 .logo-contacts {
   font-family: "Raleway";
@@ -20,6 +23,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  word-spacing: -7px;
 }
 .logo-studio-bleck {
   color: #212121;
@@ -30,26 +34,37 @@ body {
 .menu {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
   cursor: pointer;
 }
+.menu .link {
+  color: #212121;
+}
+.menu .link:active,
+.menu .link:hover {
+  color: #2196f3;
+}
 
 .contacts {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   cursor: pointer;
 }
+.contacts .link {
+  color: #757575;
+}
 
+.contacts .link:active,
+.contacts .link:hover {
+  color: #2196f3;
+}
 .address-map {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -57,7 +72,6 @@ body {
 .address-mail {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -65,7 +79,6 @@ body {
 .address-tel {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -112,7 +125,6 @@ body {
 .advantages-list {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -121,7 +133,6 @@ body {
 .advantages-item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
@@ -144,10 +155,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.demyanenko-name,
-.repin-name,
-.tarasov-name,
-.ermakov-name {
+.team-member-name {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -157,10 +165,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.demyanenko-position,
-.repin-position,
-.tarasov-position,
-.ermakov-position {
+.team-member-position {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
