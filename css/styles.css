@@ -1,26 +1,24 @@
 body {
   font-family: Roboto, sans-serif;
   color: #757575, #212121, #2196f3, #ffffff, #2f303a;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-size: 14px;
 }
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #2196f3;
   word-spacing: -7px;
 }
 .logo-contacts {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
   word-spacing: -7px;
@@ -32,7 +30,6 @@ body {
   color: #ffffff;
 }
 .menu {
-  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -48,7 +45,6 @@ body {
 }
 
 .contacts {
-  font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -67,24 +63,41 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+.address-map.link {
   color: #ffffff;
 }
+.address-map.link:active,
+.address-map.link:hover {
+  color: #2196f3;
+}
+
 .address-mail {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 .address-tel {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+.address-mail,
+.address-tel.link {
   color: rgba(255, 255, 255, 0.6);
 }
+.address-mail.link:hover,
+.address-mail.link:active {
+  color: #2196f3;
+}
+.address-tel.link:active,
+.address-tel.link:hover {
+  color: #2196f3;
+}
+
 .slogan {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -94,8 +107,7 @@ body {
   color: #ffffff;
 }
 .btn-order-service {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", "sans-serif";
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -106,6 +118,7 @@ body {
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 /*list - убирает точки перед селектарами  */
@@ -122,23 +135,29 @@ body {
 .container-slogan {
   background: #2f303a;
 }
-.advantages-list {
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+.container-advantages,
+.container-title,
+.container-our-team,
+.container-projects {
+  background: #e5e5e5;
 }
 .advantages-item {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
+  text-transform: none;
   color: #757575;
 }
+.advantages-list {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
 .classes-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -147,7 +166,6 @@ body {
   color: #212121;
 }
 .our-team {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -156,7 +174,6 @@ body {
   color: #212121;
 }
 .team-member-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -166,7 +183,6 @@ body {
   color: #212121;
 }
 .team-member-position {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -175,12 +191,8 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.btn-everything,
-.btn-sites,
-.btn-applications,
-.btn-design,
-.btn-marketing {
-  font-family: "Roboto";
+.btn {
+  font-family: "Roboto", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -188,19 +200,30 @@ body {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
   cursor: pointer;
+  border-radius: 4px;
+  color: #212121;
+  background: #f5f4fa;
 }
 
-.technoquack,
-.new-orlean-vs-gs,
-.seafood,
-.prime,
-.boxes,
-.inspiration,
-.limited-edition,
-.project-lab,
-.growing-business {
+.btn:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.btn-everything {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #2196f3;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.projects {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -210,15 +233,7 @@ body {
   color: #212121;
 }
 
-.technoquack-website,
-.new-orlean-vs-gs-design,
-.seafood-app,
-.prime-marketing,
-.boxes-app,
-.inspiration-website,
-.limited-edition-design,
-.project-lab-marketing,
-.growing-business-app {
+.project-type {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
