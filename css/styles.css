@@ -100,7 +100,7 @@ body {
 .slogan {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -110,7 +110,7 @@ body {
   font-family: "Roboto", "sans-serif";
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -160,7 +160,7 @@ body {
 .classes-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -168,7 +168,7 @@ body {
 .our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -176,7 +176,7 @@ body {
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -185,7 +185,7 @@ body {
 .team-member-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -196,7 +196,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -215,7 +215,7 @@ body {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -227,7 +227,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
@@ -237,7 +237,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
