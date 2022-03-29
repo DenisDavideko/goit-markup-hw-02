@@ -2,7 +2,6 @@ body {
   font-family: Roboto, sans-serif;
   color: #757575, #212121, #2196f3, #ffffff, #2f303a;
   background-color: #ffffff;
-  font-size: 14px;
 }
 .logo {
   font-family: "Raleway", "sans-serif";
@@ -31,7 +30,8 @@ body {
 }
 .menu {
   font-weight: 500;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   cursor: pointer;
@@ -46,7 +46,8 @@ body {
 
 .contacts {
   font-weight: 500;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
 }
@@ -61,7 +62,8 @@ body {
 .address-map {
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .address-map.link {
@@ -75,13 +77,15 @@ body {
 .address-mail {
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .address-tel {
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .address-mail,
@@ -110,7 +114,7 @@ body {
   font-family: "Roboto", "sans-serif";
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -135,32 +139,34 @@ body {
 .container-slogan {
   background: #2f303a;
 }
-.container-advantages,
-.container-title,
-.container-our-team,
-.container-projects {
+
+.container-our-team {
   background: #e5e5e5;
+}
+
+.advantages-list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .advantages-item {
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: none;
   color: #757575;
-}
-.advantages-list {
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
 }
 
 .classes-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -168,7 +174,7 @@ body {
 .our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -176,7 +182,7 @@ body {
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -185,7 +191,7 @@ body {
 .team-member-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -223,7 +229,8 @@ body {
   color: #ffffff;
   border-radius: 4px;
 }
-.projects {
+.projects-name {
+  font-family: "Roboto", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -237,7 +244,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
