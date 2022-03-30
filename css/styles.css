@@ -46,7 +46,10 @@ body {
 .link:active {
   color: #2196f3;
 }
-
+.menu-studio.current,
+.menu-portfolio.current {
+  color: #2196f3;
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -130,6 +133,12 @@ body {
   background: #2196f3;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
+}
+.btn-order-service:active,
+.btn-order-service:hover,
+.btn-order-service:focus {
+  background: #188ce8;
 }
 
 /*list - убирает точки перед селектарами  */
@@ -221,6 +230,7 @@ body {
   border-radius: 4px;
   color: #212121;
   background: #f5f4fa;
+  border: none;
 }
 
 .btnn:hover {
@@ -242,6 +252,7 @@ body {
   background: #2196f3;
   color: #ffffff;
   border-radius: 4px;
+  border: none;
 }
 .projects-name {
   font-family: "Roboto", "sans-serif";
