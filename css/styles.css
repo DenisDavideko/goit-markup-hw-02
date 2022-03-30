@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #757575, #212121, #2196f3, #ffffff, #2f303a;
   background-color: #ffffff;
+  font-size: 14px;
 }
 .logo {
   font-family: "Raleway", "sans-serif";
@@ -40,7 +41,9 @@ body {
   color: #212121;
 }
 .menu .link:active,
-.menu .link:hover {
+.menu .link:hover,
+.menu .link:focus,
+.link:active {
   color: #2196f3;
 }
 
@@ -56,7 +59,8 @@ body {
 }
 
 .contacts .link:active,
-.contacts .link:hover {
+.contacts .link:hover,
+.contacts .link:focus {
   color: #2196f3;
 }
 .address-map {
@@ -70,7 +74,8 @@ body {
   color: #ffffff;
 }
 .address-map.link:active,
-.address-map.link:hover {
+.address-map.link:hover,
+.address-map.link:focus {
   color: #2196f3;
 }
 
@@ -93,11 +98,13 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .address-mail.link:hover,
-.address-mail.link:active {
+.address-mail.link:active,
+.address-mail.link:focus {
   color: #2196f3;
 }
 .address-tel.link:active,
-.address-tel.link:hover {
+.address-tel.link:hover,
+.address-tel.link:focus {
   color: #2196f3;
 }
 
@@ -144,13 +151,13 @@ body {
   background: #e5e5e5;
 }
 
-.advantages-list {
+.advantages-name {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-
+  text-transform: uppercase;
   color: #212121;
 }
 .advantages-item {
@@ -159,7 +166,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-transform: none;
+
   color: #757575;
 }
 
@@ -179,6 +186,10 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+.team-member {
+  background: #ffffff;
+}
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
@@ -197,7 +208,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.btn {
+.btnn {
   font-family: "Roboto", "sans-serif";
   font-style: normal;
   font-weight: 500;
@@ -212,11 +223,14 @@ body {
   background: #f5f4fa;
 }
 
-.btn:hover {
+.btnn:hover {
   background: #2196f3;
   color: #ffffff;
 }
-
+.btnn:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
 .btn-everything {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
@@ -248,4 +262,7 @@ body {
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
+}
+.projects-list {
+  cursor: pointer;
 }
